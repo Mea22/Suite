@@ -1,0 +1,407 @@
+body{
+    font-family: 'Epilogue', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0px 56px;
+}
+header,
+.container-one{
+    margin-left:  16px;
+    margin-right:  16px;
+}
+.logo{
+    width: 81px;
+}
+header button{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.14px;
+    width: 182px;
+    height: 48px;
+    border: 1px solid #172339;
+    border-radius: 6px;
+    background-color: #FFFFFF;
+}
+.container-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 56px;
+    margin-bottom: 237px;
+}
+
+.cont-one-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.one-info{
+    margin-bottom: 56px;
+}
+.line{
+    max-width:151.47px;
+    margin-left: 155px;
+}
+.cont-one-info h1{
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    letter-spacing: -0.527778px;
+    color: #172339;
+    margin-bottom: 32px;
+}
+.cont-one-info b{
+    font-weight: 700;
+}
+.cont-one-info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.0888889px;
+    color: #49566D;
+    margin-bottom: 32px;
+}
+.cont-one-info button{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    color: #FAF8F6;
+    background-color: #172339;
+    width: 256px;
+    height: 61px;
+    border-radius: 6px;
+    border: 0px;
+}
+.hero-desktop{
+    display: none;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: center;
+}
+.num-cont h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;    
+    color: #172339;
+}
+.num-cont p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;   
+    letter-spacing: 2.5px; 
+    color: #49566D;
+}
+.container-two{
+    background-color: #172339;
+    border-radius: 15px;
+    position: relative;
+    z-index: 1;
+}
+.jeremy-large{
+    display: none;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.jeremy-small{
+    margin-top: -170px;
+    margin-bottom: 40px;
+}
+.curved-line{
+    max-width: 50px;
+}
+.info{
+    padding: 37px 16px 64px;
+    text-align: center;
+}
+.info h1{
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;    
+    letter-spacing: -0.416667px;
+    color: #FAF8F6;
+}
+.info b{
+    font-weight: 700;
+}
+.info-p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;    
+    letter-spacing: 0.09px;    
+    color: #F3EDE7;
+    margin: 40px 0px;
+}
+.info span{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;    
+    letter-spacing: -0.18px;    
+    color: #FAF8F6;    
+}
+.info-cmo{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;    
+    letter-spacing: 2.5px;
+    color: #F3EDE7;   
+}
+footer{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 33px;
+    background-color: #F3EDE7;
+    height: 630px;
+    margin-top: -500px;
+    padding: 56px 0px 80px;
+    justify-content: flex-end;
+}
+footer p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 32px;
+    letter-spacing: 0.0833333px;
+    color: #49566D;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+}
+@media only screen and (min-width: 450px ){
+    .hero-mobile{
+        display: none;
+    }
+    .hero-desktop{
+        display: flex;
+        max-width: 281px;
+    }
+    header{
+        
+        margin: 40px 0px 80px;
+    }
+    header,
+    .container-one,
+    .container-two{
+        margin-left:  40px;
+        margin-right:  40px;
+    }
+    
+    header button{
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+        width: 219px;
+        height: 56px;
+
+    }
+    .container-one{
+        gap: 88px;
+        margin-bottom: 273px;
+    }
+    .cont-one-info{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        position: relative;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .one-info{
+        margin-bottom: 0px;
+        position: absolute;
+        left: 0px;
+    }
+    .line{
+        max-width:231.19px;
+        margin-left: 220px;
+    }
+    .cont-one-info h1{
+        font-weight: 400;
+        font-size: 56px;
+        line-height: 64px;
+        letter-spacing: -0.78px;
+        margin-bottom: 40px;
+        max-width: 573px;
+    }
+    .cont-one-info p{
+        margin-bottom: 40px;
+        max-width: 350px;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .num-cont{
+        width: 223px
+    }
+    footer{
+        display: flex;
+        position: absolute;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-end;
+        gap: 0px; 
+        background-color: #F3EDE7;
+        height: 530px;
+        margin-top: -470px;
+        padding: 56px 0px 80px;
+        justify-content: space-around;
+    }
+    footer p{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.0833333px;
+        color: #49566D;
+        margin: 0px 80px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: row;
+        gap: 28px;
+    }
+    
+}
+@media only screen and (min-width: 1270px ){
+    .hero-desktop{
+        max-width: 350px;
+    }
+    header{
+        margin: 40px 0px 80px;
+    }
+    header,
+    .container-one,
+    .container-two{
+        margin-left:  166px;
+        margin-right:  164px;
+    }
+    
+    header button:hover{
+        background-color: #172339;
+        color: #FAF8F6;
+        cursor: pointer;
+    }
+    .container-one{
+        gap: 96px;
+        margin-bottom: 199px;
+        flex-direction: row;
+    }
+    .cont-one-info{
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        position: relative;
+        width: 100%;
+        justify-content: flex-end;
+    }
+    .one-info{
+        margin-bottom: 0px;
+        position: absolute;
+        left: 0px;
+    }
+    .line{
+        max-width:287px;
+        margin-left: 290px;
+    }
+    .cont-one-info h1{
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
+        max-width: 635px;
+    }
+    .cont-one-info p{
+        margin-bottom: 52px;
+    }
+    .one-info button:hover{
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
+        cursor: pointer;
+    }
+    .numbers{
+        display: flex;
+        flex-direction: column;
+        gap: 63px;
+        text-align: left;
+        width: 190px;
+    }
+    .num-cont{
+        width: 190px
+    }
+    .container-two{
+        display: flex;
+        justify-content: space-between;
+        max-height: 545px;
+    }
+    .jeremy-small{
+        display: none;
+    }
+    .jeremy-large{
+        display: flex;
+        background-image: url(./assets/pattern-blur.svg);
+        background-repeat: no-repeat;
+        background-size: 430px;
+        background-position-x: -30px;
+        background-position-y: 240px;
+        margin-left: 112px;
+        margin-top: -50px;
+        height: 590px;
+    }
+    .images{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .curved-line{
+        margin-left: 50px;
+        margin-bottom: 200px;
+        max-width: 64px;
+    }
+    .info{
+        padding: 88px 125px 88px 0px;
+        text-align: left;
+        width: 350px;
+    }
+    .info h1{
+        font-size: 48px;
+        line-height: 56px;    
+        letter-spacing: -0.5px;
+    }
+    
+    .info-p{
+        font-size: 1.25vw;
+        line-height: 35px;    
+        letter-spacing: 0.1px; 
+        width: 350px;
+   
+    }
+    footer{
+        height: 330px;
+        margin-top: -270px;
+    }
+   
+    .contact img:hover{
+       opacity: 0.5;
+       cursor: pointer;
+    }
+    
+}
